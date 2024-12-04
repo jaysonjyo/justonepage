@@ -219,7 +219,7 @@ class _HomescreenState extends State<Homescreen> {
                                                                 .circular(25.r),
                                                       ),
                                                     ),
-                                                    child: Center(
+                                                    child:index==0? Center(
                                                       child: Text(
                                                         'Sick Leave',
                                                         style: TextStyle(
@@ -233,10 +233,24 @@ class _HomescreenState extends State<Homescreen> {
                                                           // height: 0.11,
                                                         ),
                                                       ),
+                                                    ):Center(
+                                                      child: Text(
+                                                        'Unpaid Leave',
+                                                        style: TextStyle(
+                                                          color:
+                                                          index==0? Color(0xFF27AE60):Colors.blue,
+                                                          fontSize: 8.sp,
+                                                          fontFamily:
+                                                          'Open Sans',
+                                                          fontWeight:
+                                                          FontWeight.w400,
+                                                          // height: 0.11,
+                                                        ),
+                                                      ),
                                                     ),
                                                   ),
                                                   SizedBox(
-                                                    height: 6.h,
+                                                    height: 8.05.h,
                                                   ),
                                                   Row(
                                                     crossAxisAlignment:
