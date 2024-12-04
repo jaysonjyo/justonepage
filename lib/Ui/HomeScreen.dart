@@ -139,7 +139,7 @@ class _HomescreenState extends State<Homescreen> {
                                   ),
                                   child: Column(
                                     children: [
-                                      SizedBox(height:2.h ,),
+                                      SizedBox(height:5.h ,),
                                       Padding(
                                         padding: EdgeInsets.symmetric(
                                             horizontal: 8.2.w),
