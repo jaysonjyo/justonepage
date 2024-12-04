@@ -36,10 +36,10 @@ class _BottamnavigationbarState
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           color: Color(0xFF272341),
-          borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(20),
-            topRight: Radius.circular(20),
-          ),
+          // borderRadius: BorderRadius.only(
+          //   topLeft: Radius.circular(20),
+          //   topRight: Radius.circular(20),
+          // ),
         ),
         child: BottomNavigationBar(
           currentIndex: _selectedIndex,
