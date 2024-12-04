@@ -120,7 +120,7 @@ class _HomescreenState extends State<Homescreen> {
                         //Tabbar
 
                         SizedBox(
-                          height: 19.38,
+                          height: 19.38.h,
                         ),
 
                         Expanded(
@@ -158,7 +158,7 @@ class _HomescreenState extends State<Homescreen> {
                                                   children: [
                                                     Container(
                                                       width: 36.w,
-                                                      height: 36.h,
+                                                      height: 33.h,
                                                       decoration:
                                                           ShapeDecoration(
 
