@@ -250,7 +250,7 @@ class _HomescreenState extends State<Homescreen> {
                                                     ),
                                                   ),
                                                   SizedBox(
-                                                    height: 8.05.h,
+                                                    height: 6.h,
                                                   ),
                                                   Row(
                                                     crossAxisAlignment:
